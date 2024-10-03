@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <version>1.0.0</version>
+  <spriteSheetPath>C:\Users\David\Code\sprite-sheet-buddy-examples\Example\Content\Character.png</spriteSheetPath>
+  <exportFile>C:\Users\David\Code\sprite-sheet-buddy-examples\Example\Content\Character.sprite</exportFile>
+  <exportType>compressedXml</exportType>
+  <animations>
+    <AnimationSettings>
+      <index>0</index>
+      <name>idle</name>
+      <numFrames>1</numFrames>
+      <columns>1</columns>
+      <width>32</width>
+      <height>48</height>
+      <offsetX>28</offsetX>
+      <offsetY>16</offsetY>
+      <columnGap>0</columnGap>
+      <rowGap>0</rowGap>
+      <fps>10</fps>
+      <color>
+        <B>0</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278190335</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>28</x>
+          <y>16</y>
+          <width>32</width>
+          <height>48</height>
+          <pivotX>16</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.1</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+    <AnimationSettings>
+      <index>0</index>
+      <name>aim_up</name>
+      <numFrames>1</numFrames>
+      <columns>1</columns>
+      <width>32</width>
+      <height>48</height>
+      <offsetX>99</offsetX>
+      <offsetY>16</offsetY>
+      <columnGap>0</columnGap>
+      <rowGap>0</rowGap>
+      <fps>10</fps>
+      <color>
+        <B>0</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278190335</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>99</x>
+          <y>16</y>
+          <width>32</width>
+          <height>48</height>
+          <pivotX>16</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.1</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+    <AnimationSettings>
+      <index>0</index>
+      <name>run</name>
+      <numFrames>8</numFrames>
+      <columns>8</columns>
+      <width>48</width>
+      <height>48</height>
+      <offsetX>164</offsetX>
+      <offsetY>16</offsetY>
+      <columnGap>24</columnGap>
+      <rowGap>0</rowGap>
+      <fps>12</fps>
+      <color>
+        <B>0</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278190335</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>164</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>236</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>308</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>380</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>452</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>524</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>596</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>668</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+    <AnimationSettings>
+      <index>3</index>
+      <name>run_aim_up</name>
+      <numFrames>8</numFrames>
+      <columns>8</columns>
+      <width>48</width>
+      <height>48</height>
+      <offsetX>740</offsetX>
+      <offsetY>16</offsetY>
+      <columnGap>24</columnGap>
+      <rowGap>0</rowGap>
+      <fps>12</fps>
+      <color>
+        <B>0</B>
+        <G>142</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278226687</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>740</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>812</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>884</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>956</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1028</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1100</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1172</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1244</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+    <AnimationSettings>
+      <index>4</index>
+      <name>run_aim_down</name>
+      <numFrames>8</numFrames>
+      <columns>8</columns>
+      <width>48</width>
+      <height>48</height>
+      <offsetX>1316</offsetX>
+      <offsetY>16</offsetY>
+      <columnGap>24</columnGap>
+      <rowGap>0</rowGap>
+      <fps>12</fps>
+      <color>
+        <B>0</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278190335</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>1316</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1388</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1460</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1532</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1604</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1676</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1748</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1820</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+    <AnimationSettings>
+      <index>5</index>
+      <name>jump</name>
+      <numFrames>8</numFrames>
+      <columns>8</columns>
+      <width>48</width>
+      <height>48</height>
+      <offsetX>1892</offsetX>
+      <offsetY>16</offsetY>
+      <columnGap>24</columnGap>
+      <rowGap>0</rowGap>
+      <fps>12</fps>
+      <color>
+        <B>255</B>
+        <G>158</G>
+        <R>215</R>
+        <A>255</A>
+        <PackedValue>4294942423</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>1892</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>1964</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2036</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2108</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2180</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2252</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2324</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2396</x>
+          <y>16</y>
+          <width>48</width>
+          <height>48</height>
+          <pivotX>24</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+    <AnimationSettings>
+      <index>6</index>
+      <name>die</name>
+      <numFrames>6</numFrames>
+      <columns>8</columns>
+      <width>64</width>
+      <height>48</height>
+      <offsetX>2467</offsetX>
+      <offsetY>17</offsetY>
+      <columnGap>8</columnGap>
+      <rowGap>0</rowGap>
+      <fps>12</fps>
+      <color>
+        <B>0</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278190335</PackedValue>
+      </color>
+      <frames>
+        <FrameSettings>
+          <x>2467</x>
+          <y>17</y>
+          <width>64</width>
+          <height>48</height>
+          <pivotX>32</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2539</x>
+          <y>17</y>
+          <width>64</width>
+          <height>48</height>
+          <pivotX>32</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2611</x>
+          <y>17</y>
+          <width>64</width>
+          <height>48</height>
+          <pivotX>32</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2683</x>
+          <y>17</y>
+          <width>64</width>
+          <height>48</height>
+          <pivotX>32</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2755</x>
+          <y>17</y>
+          <width>64</width>
+          <height>48</height>
+          <pivotX>32</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+        <FrameSettings>
+          <x>2827</x>
+          <y>17</y>
+          <width>64</width>
+          <height>48</height>
+          <pivotX>32</pivotX>
+          <pivotY>24</pivotY>
+          <time>0.083333336</time>
+          <overridePos>false</overridePos>
+          <overrideSize>false</overrideSize>
+          <overridePivot>false</overridePivot>
+          <overrideTime>false</overrideTime>
+          <events />
+          <shapes />
+        </FrameSettings>
+      </frames>
+    </AnimationSettings>
+  </animations>
+  <backgroundColor>
+    <B>237</B>
+    <G>149</G>
+    <R>100</R>
+    <A>255</A>
+    <PackedValue>4293760356</PackedValue>
+  </backgroundColor>
+  <snapping>true</snapping>
+  <snapX>4</snapX>
+  <snapY>4</snapY>
+  <showGrid>true</showGrid>
+  <gridColor>
+    <B>0</B>
+    <G>0</G>
+    <R>0</R>
+    <A>255</A>
+    <PackedValue>4278190080</PackedValue>
+  </gridColor>
+</AppSettings>
